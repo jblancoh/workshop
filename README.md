@@ -1,4 +1,4 @@
-# workshop
+g# workshop
 ## Workshop sobre javascripting
 
 ### Cuantos pomodoros te tomo terminar?
