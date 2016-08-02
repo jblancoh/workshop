@@ -11,7 +11,7 @@
     };
 
     var koopa = function (error, file) {
-    
+      if(error) return console.error("Handle your errors folks.");
 
       peach(JSON.parse(file));
     };
