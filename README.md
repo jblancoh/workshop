@@ -1,9 +1,6 @@
-<<<<<<< HEAD
-g# workshop
-=======
 # workshop
 ---
->>>>>>> 172eaa68ed93ce37832fc189637922166f6905fd
+
 ## Workshop sobre javascripting
 ---
 ## Cuantos pomodoros te tomo terminar?
