@@ -21,6 +21,7 @@ let total = 0;
 
 for(var i=0;i<numeros.length;i++){
   if (numeros % 2 == 0){
+
   }
   i++;
   console.log(numeros[i]);
