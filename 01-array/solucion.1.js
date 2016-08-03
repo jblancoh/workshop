@@ -23,11 +23,20 @@
   //obtenemos el resutado de la iteracion y sumamos el siguiente numeros
   //obtenemos la suma total de la iteracion y la imprimimos
 
-let numeros = [1,2,3,4,5,6];
-let total = 0;
 
-for (var i=0; i<numeros.length; i++){
-  total =total + numeros[i];
+// let numeros = [1,2,3,4,5,6];
+// let total = 0;
+//
+// for (var i=0; i<numeros.length; i++){
+//   total =total + numeros[i];
+//
+// }
+// console.log(total);
 
-}
-console.log(total);
+//REFACTORIZAR
+
+let numeros = [1,2,3,4,5,6].reduce(function(a,b){
+  return a+b;
+
+})
+console.log(numeros);

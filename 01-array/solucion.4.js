@@ -9,7 +9,7 @@
 // INPUT
   // String (Cadena de caracteres en orden al reves)
 // OUPUT
-  //  String (Cadena de caracteres acomodadas en orden resultado de un buble)
+  //  Array (Array con caracteres acomodadas en orden resultado de un buble)
 // PSEUDOCODE
   //Crear un bucle para iterar un arreglo iniciando desde la ultima letra
   //la condicion se decrementa en cada iteracion
@@ -20,7 +20,6 @@
   // print the result of the string in correct order.
 'use strict';
 let string = 'ollorrased';
-
 let resultado = [];
 
 for(var i=string.length-1;i>=0;i--){
